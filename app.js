@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var index = require('./routes/index');
 var users = require('./routes/users');
-var uri = 'mongodb://faisal:faisal123@ds243325.mlab.com:43325/db_blood_app';
+var uri = 'mongodb://faisal:faisal123@ds241875.mlab.com:41875/db_blood_app';
 //process.env.MONGOLAB_URI
 mongoose.connect(uri);
 var db = mongoose.connection;
